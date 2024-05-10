@@ -1,0 +1,168 @@
+*{
+    overflow: auto;
+}
+body{
+    background-color: #4b6c70;
+    font-family :Arial, Helvetica, sans-serif;
+    
+    
+}
+p.categorie{
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    display: inline-block;
+    text-align: center;                              
+    max-width: 50%;    
+    padding: 6px 7px;  
+    margin : -25px 0 0 0;  
+    border-radius: 10px;
+    border: 2px solid grey;    
+}
+
+div.categorie{
+    margin-top: 0px;
+    overflow: visible;
+}
+p.intro{
+    
+    color: black;
+    font-weight: bold;    
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    max-width: 400px;
+
+}
+h1.title{
+    
+    max-width: 300px;
+    
+    color: black(160, 107, 9, 0.808);
+    text-align: center;
+    display: inline-block;
+    padding: 15px 15px;
+    border-color: black;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px 1px;
+}
+.center{
+    text-align: center;
+    width: 100%;
+}
+div.MEP{
+    margin: 5% 8% 5% 8%;
+    background-color: white;
+    padding: 0px 50px 10px 50px;    
+    min-width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 1px black;
+    overflow: visible;
+}
+table.information{
+    background-color: rgba(50, 101, 143, 0.562);
+    color: white;
+    min-width: 100px;
+    position: absolute ;
+    bottom: 0;
+    width: 100%;
+     height: 10%;
+    
+}
+table.information td{
+    text-align: center;
+    vertical-align: top;
+    padding: 5px;
+}
+table.information th{
+    text-align: center;
+    vertical-align: bottom;
+    padding: 5px;
+}
+div.separateur{
+    width: 150px;
+    height: 1.5px;
+    background-color: black;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+                }
+div.MEP2{
+    position: relative; background-color: black;
+    min-width: 350px;
+}
+img.MEP{
+    display: block;
+    max-height: 400px;
+    min-height: 200px;
+    object-fit: cover;
+    background-color: lightgrey;
+    
+
+}
+div.colonne {
+    margin-top: 10px;
+    overflow: auto;
+}
+.colonne p{
+    text-align: center;
+    border: 1px solid black;
+    padding: 6px 0;
+    font-size: 17px;
+    margin: 5px 10%;
+    font-weight:bold;
+    width: 75%;
+    
+    
+}
+.colonne li{
+    font-size: 20px;
+}
+div.colonne h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    border-bottom:4px solid rgba(50, 101, 143, 0.562) ;
+}
+div.colonne1{
+    width: 35%;
+    min-width: 150px;
+    display: inline-block;
+}
+
+div.colonne2{
+    float: right;
+    width: 55%;
+    
+}
+table.preparation p.numero{
+    font-size: 18px;
+    background-color: rgb(107, 184, 255);
+    color: white;
+    vertical-align: top;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding-top: 3px;
+    margin: 0;
+    
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+table.preparation td.etape{
+    font-size: 16px;
+    padding: 0;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    vertical-align: top;
+    
+}
+table.preparation tr{
+    vertical-align: top;
+    height: 40px;
+}
+tr.preparation{
+    vertical-align: top;
+    
+}
